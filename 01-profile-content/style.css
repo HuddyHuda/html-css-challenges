@@ -1,0 +1,73 @@
+.profile-wrapper{
+  margin: 0 auto;
+  text-align:center;
+  display:block;
+  max-width:1280px;
+}
+
+.photoonly img {
+    max-width: 40%;
+}
+
+h1,h2,h3,h4,h5,h6,div{
+  font-family: 'Abel', sans-serif;
+}
+a {
+    padding: 10px;
+}
+
+ul{text-align:center; margin:0 auto; display:block;}
+
+li{float:left; list-style-type:none;}
+
+td {
+    border: 1px solid black;
+}
+
+.wrap {
+  max-width: 850px;
+  margin: 40px auto;
+
+  padding: 20px;
+}
+.thumb {
+  width: 280px;
+  height: 170px;
+  background-color: hsl(0, 0%, 90%);
+  display: inline-block;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+.thumb .layer {
+  background-color: hsla(0, 0%, 0%, 0);
+  padding: 10px;
+
+}
+.thumb .title {
+  width: calc(100% - 40px);
+  position: absolute;
+  bottom: 10px;
+  color: #fff;
+  padding: 10px;
+}
+.thumb .title h3 {
+  margin: 0;
+    color: #fff;
+  font-weight: 600;
+  font-size: 13px;
+}
+.thumb .info {
+  display: none;
+  transform: translate(0, -20px);
+
+  color: hsl(0, 0%, 100%);
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+a{text-decoration:none; padding:10px;}
+
+.fa-facebook{color:black}
