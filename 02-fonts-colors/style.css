@@ -43,3 +43,93 @@ table{
   font-size: 15px;
   line-height: 1.6em;
 }
+
+.font-color-page{margin:0 auto; max-width:1280px; display:block;}
+
+.font-color-page h1{
+  font-family: 'Exo 2', sans-serif;
+  color:blue;
+  line-height:20px;
+}
+
+.font-color-page h2{font-size:16px; color:#a90329;}
+
+.profile {
+    padding: 10px;
+    min-height: 253px;
+    background: white;
+}
+
+.iron-man {
+    float: left;
+    margin-right: 40px;
+}
+
+li {
+    display: inline-block;
+    margin: 2px;
+}
+
+li a{color:black;}
+
+a.ironman-btn {
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 0px;
+    display: block;
+    font-size:18px;
+}
+
+a.ironman-btn:hover{
+  background-color:black;
+  color:white;
+}
+
+
+.movie-small{font-size:12px; color:white;}
+.movie-holder img {float:left; margin-right:20px;}
+
+.movie-holder img {
+    max-width: 120px;
+}
+
+.font-color-page h1 {
+    text-align: center;
+    padding: 50px;
+    color:black;
+}
+
+.font-color-page h3{color:white;}
+
+.movie1 {
+    border-bottom: 1px solid black;
+    display: block;
+    min-height: 250px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+background: #a90329; /* Old browsers */
+background: -moz-linear-gradient(top,  #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+    max-width: 600px;
+    padding: 0px 0px;
+    float:left;
+  }
+
+  .movie1 p {
+
+    font-size: 12px;
+    min-height: auto;
+    color:white;
+}
+
+a.website-btn {
+    background: white;
+    padding: 10px;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 200px;
+    margin-bottom: 0px;
+}
